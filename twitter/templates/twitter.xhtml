@@ -1,4 +1,8 @@
 <div class="twitter">
+	<?php if ($this->headline): ?>
+		<<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
+	<?php endif; ?>
+	
 	<a href="http://twitter.com/share" class="twitter-share-button" 
 	<?php if($this->currenturl): ?>data-url="<?php echo $this->url; ?>"<?php endif; ?>
 	<?php if($this->currenttitle): ?>data-text="<?php echo $this->text; ?>"<?php endif; ?> 
