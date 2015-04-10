@@ -1,0 +1,1 @@
+Die Anleitung wurde verschoben. Sie finden die Anleitung jetzt [hier](http://bandyt.de/contao-twitter-anleitung.html).
